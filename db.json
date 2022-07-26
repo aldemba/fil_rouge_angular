@@ -1,0 +1,21 @@
+{
+
+"produits":[
+    {
+       "id":"1",
+       "nom":"Golden",
+       "prix":"5000",
+       "image":"",
+       "description":"Delicieux"
+    },
+    {
+        "id":"2",
+        "nom":"Boy",
+        "prix":"4000",
+        "image":"",
+        "description":"Salé"
+     }
+ ]
+
+
+}
