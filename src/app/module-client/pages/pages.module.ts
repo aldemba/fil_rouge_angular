@@ -5,6 +5,7 @@ import { DetailsComponent } from './details/details.component';
 import { HomeComponent } from './home/home.component';
 import { PageRoutingModule } from './page-routing.module';
 import { CardComponent } from '../card/card.component';
+import { LayoutModule } from '../layout/layout.module';
 
 
 
@@ -18,13 +19,15 @@ import { CardComponent } from '../card/card.component';
   ],
   imports: [
     CommonModule,
-    PageRoutingModule
+    PageRoutingModule,
+    LayoutModule
     
   ],
   exports: [
     CatalogueComponent,
     DetailsComponent,
-    HomeComponent
+    HomeComponent,
+    
   ]
 })
 export class PagesModule { }

@@ -13,7 +13,7 @@ import { HomeComponent } from './module-client/pages/home/home.component';
 
 
 const appRoutes:Routes = [
-{path:'catalogue', component: HomeComponent},
+{path:'catalogue', component: CatalogueComponent},
 { path: 'error', component: NotFoundComponent },
 { path: '', redirectTo: '/catalogue', pathMatch: 'full' },
 { path: '**', redirectTo: '/error' }
